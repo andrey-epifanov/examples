@@ -1,54 +1,54 @@
-Пояснения к проектам: 
+РџРѕСЏСЃРЅРµРЅРёСЏ Рє РїСЂРѕРµРєС‚Р°Рј: 
 
-e2_Builder\mvn-builder-example-test\pom.xml - главный проект , в него добавлены остальные модули
+e2_Builder\mvn-builder-example-test\pom.xml - РіР»Р°РІРЅС‹Р№ РїСЂРѕРµРєС‚ , РІ РЅРµРіРѕ РґРѕР±Р°РІР»РµРЅС‹ РѕСЃС‚Р°Р»СЊРЅС‹Рµ РјРѕРґСѓР»Рё
 
 0. FourTestStage
 FourTestStage1Test - simple example
-FourTestStage2Test - пример с webdriver и страницей email
-package exampleWithout; - без использования паттерна 
-package fourTestStage; - с использованием паттерна
+FourTestStage2Test - РїСЂРёРјРµСЂ СЃ webdriver Рё СЃС‚СЂР°РЅРёС†РµР№ email
+package exampleWithout; - Р±РµР· РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РїР°С‚С‚РµСЂРЅР° 
+package fourTestStage; - СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј РїР°С‚С‚РµСЂРЅР°
 
 ================================
 1. Builder 
-Пример использования :
+РџСЂРёРјРµСЂ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ :
 featuretest.dataprovider.DataProviderAuthentication
 
 ================================
-2. Page Object – Page Action
-e3_PageObject_PageActions\pageObjects-nWithout\pom.xml - проект без использования PageObject 
+2. Page Object вЂ“ Page Action
+e3_PageObject_PageActions\pageObjects-nWithout\pom.xml - РїСЂРѕРµРєС‚ Р±РµР· РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ PageObject 
 package example;
-e3_PageObject_PageActions\pageObjects-pageActions\pom.xml - проект с использованием Page Object – Page Action
+e3_PageObject_PageActions\pageObjects-pageActions\pom.xml - РїСЂРѕРµРєС‚ СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј Page Object вЂ“ Page Action
 package exampleWithout;
 
-package exampleWithPageObject; - использование PageActions 
+package exampleWithPageObject; - РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ PageActions 
 GoogletTest: googlePage.search.sendKeys("Selenium");
-SoftwareTestingRuTest : использование списков - softwareTestingPage.mainMenus.get(0).click();
-Структура : page в test
+SoftwareTestingRuTest : РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ СЃРїРёСЃРєРѕРІ - softwareTestingPage.mainMenus.get(0).click();
+РЎС‚СЂСѓРєС‚СѓСЂР° : page РІ test
 
-ExampleMailTest - главный пример 
-Структура : в main : pages + actions , в соседнем package content 
-использование инкапсуляции элементов : 
+ExampleMailTest - РіР»Р°РІРЅС‹Р№ РїСЂРёРјРµСЂ 
+РЎС‚СЂСѓРєС‚СѓСЂР° : РІ main : pages + actions , РІ СЃРѕСЃРµРґРЅРµРј package content 
+РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РёРЅРєР°РїСЃСѓР»СЏС†РёРё СЌР»РµРјРµРЅС‚РѕРІ : 
 
 ================================
-3. Verification Action – Global Assert
-e4_VerificationAction–Global_Assert\qmvn-hibernate-test\pom.xml - проект для Hibernate 
-package hibernateWihout; - без использования Verification pattern 
-package hibernateverification; - c использованиtv Verification pattern 
+3. Verification Action вЂ“ Global Assert
+e4_VerificationActionвЂ“Global_Assert\qmvn-hibernate-test\pom.xml - РїСЂРѕРµРєС‚ РґР»СЏ Hibernate 
+package hibernateWihout; - Р±РµР· РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ Verification pattern 
+package hibernateverification; - c РёСЃРїРѕР»СЊР·РѕРІР°РЅРёtv Verification pattern 
 
-e3_PageObject_PageActions\pageObjects-pageActions\pom.xml - проект для PageActions + Verification 
-package exampleWithout; class ExampleMailTest - без использования паттерна 
-package exampleWithPageObject; class ExampleMailVerificationTest - пример с использованием паттерна 
+e3_PageObject_PageActions\pageObjects-pageActions\pom.xml - РїСЂРѕРµРєС‚ РґР»СЏ PageActions + Verification 
+package exampleWithout; class ExampleMailTest - Р±РµР· РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РїР°С‚С‚РµСЂРЅР° 
+package exampleWithPageObject; class ExampleMailVerificationTest - РїСЂРёРјРµСЂ СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј РїР°С‚С‚РµСЂРЅР° 
 
 ================================
 4. Logging
 package example.testng;
-AssertWithLogging - Assert с логированием 
+AssertWithLogging - Assert СЃ Р»РѕРіРёСЂРѕРІР°РЅРёРµРј 
 package exampleWithPageObject; 
-class ExampleMailVerificationTest - тест пример с использованием паттерна 
-class EmailVerificationWithWrapperLogging - class PageAction с использованием паттерна 
+class ExampleMailVerificationTest - С‚РµСЃС‚ РїСЂРёРјРµСЂ СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј РїР°С‚С‚РµСЂРЅР° 
+class EmailVerificationWithWrapperLogging - class PageAction СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј РїР°С‚С‚РµСЂРЅР° 
 
 ================================
-БД : Для работы необходимы скрипты базы ships : 
+Р‘Р” : Р”Р»СЏ СЂР°Р±РѕС‚С‹ РЅРµРѕР±С…РѕРґРёРјС‹ СЃРєСЂРёРїС‚С‹ Р±Р°Р·С‹ ships : 
 http://sql-ex.ru/download/mysql_script.zip 
 
 
