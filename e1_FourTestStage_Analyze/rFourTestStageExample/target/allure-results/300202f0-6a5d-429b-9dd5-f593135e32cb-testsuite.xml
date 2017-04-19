@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1488891827158" stop="1488891827347" version="1.4.23.HOTFIX1" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : BuilderExample</name>
+    <title>Default Suite : BuilderExample</title>
+    <test-cases>
+        <test-case start="1488891827216" stop="1488891827227" status="passed">
+            <name>builderTest04[featuretest.authentification.TestCase@167fdd33]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="131-00"/>
+                <label name="thread" value="1148@131-00.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1488891827305" stop="1488891827306" status="passed">
+            <name>builderTest04[featuretest.authentification.TestCase@1da51a35]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="131-00"/>
+                <label name="thread" value="1148@131-00.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1488891827312" stop="1488891827314" status="passed">
+            <name>builderTest04[featuretest.authentification.TestCase@71623278]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="131-00"/>
+                <label name="thread" value="1148@131-00.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1488891827326" stop="1488891827327" status="passed">
+            <name>builderTest04[featuretest.authentification.TestCase@61ca2dfa]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="131-00"/>
+                <label name="thread" value="1148@131-00.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1488891827331" stop="1488891827333" status="passed">
+            <name>builderTest04[featuretest.authentification.TestCase@7ba18f1b]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="131-00"/>
+                <label name="thread" value="1148@131-00.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1488891827337" stop="1488891827340" status="passed">
+            <name>builderTest04[featuretest.authentification.TestCase@aecb35a]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="131-00"/>
+                <label name="thread" value="1148@131-00.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1488891827343" stop="1488891827344" status="passed">
+            <name>standardUsageTest03[featuretest.authentification.TestCase@b9afc07]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="131-00"/>
+                <label name="thread" value="1148@131-00.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

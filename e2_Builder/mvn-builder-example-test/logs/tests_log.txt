@@ -1,0 +1,226 @@
+11:53:10,872 INFO  TestCase:66 - Check! Write me!
+11:53:10,915 INFO  TestCase:42 - Custom Screenshot = true (Screenshot into custom/private folder)
+11:53:10,915 INFO  TestCase:43 - Check localization = false
+11:53:10,916 INFO  TestCase:92 - TestCase.
+11:53:10,916 INFO  TestCase:93 - Login = Login{name='user1', password='123'}
+11:53:10,916 INFO  TestCase:94 - Exists is true
+11:53:10,983 INFO  TestCase:42 - Custom Screenshot = true (Screenshot into custom/private folder)
+11:53:10,983 INFO  TestCase:43 - Check localization = false
+11:53:10,983 INFO  TestCase:92 - TestCase.
+11:53:10,983 INFO  TestCase:93 - Login = Login{name='user1', password='123'}
+11:53:10,983 INFO  TestCase:94 - Exists is true
+11:53:10,987 INFO  TestCase:42 - Custom Screenshot = true (Screenshot into custom/private folder)
+11:53:10,987 INFO  TestCase:43 - Check localization = false
+11:53:10,988 INFO  TestCase:92 - TestCase.
+11:53:10,988 INFO  TestCase:93 - Login = Login{name='user', password='123'}
+11:53:10,988 INFO  TestCase:94 - Exists is true
+11:53:10,993 INFO  TestCase:42 - Custom Screenshot = false (Screenshot into custom/private folder)
+11:53:10,993 INFO  TestCase:43 - Check localization = false
+11:53:10,993 INFO  TestCase:92 - TestCase.
+11:53:10,993 INFO  TestCase:93 - Login = Login{name='user', password='123'}
+11:53:10,993 INFO  TestCase:94 - Exists is true
+11:53:10,997 INFO  TestCase:42 - Custom Screenshot = true (Screenshot into custom/private folder)
+11:53:10,997 INFO  TestCase:43 - Check localization = false
+11:53:10,997 INFO  TestCase:92 - TestCase.
+11:53:10,997 INFO  TestCase:93 - Login = Login{name='user2', password='123'}
+11:53:10,998 INFO  TestCase:94 - Exists is false
+11:53:10,999 INFO  TestCase:42 - Custom Screenshot = false (Screenshot into custom/private folder)
+11:53:11,000 INFO  TestCase:43 - Check localization = false
+11:53:11,000 INFO  TestCase:92 - TestCase.
+11:53:11,000 INFO  TestCase:93 - Login = Login{name='user2', password='123'}
+11:53:11,000 INFO  TestCase:94 - Exists is false
+11:53:11,000 INFO  TestCase:96 - Password during login operation = 123
+11:53:11,001 INFO  TestCase:100 - Expected error message = Invalid username or password
+11:53:11,003 INFO  TestCase:42 - Custom Screenshot = false (Screenshot into custom/private folder)
+11:53:11,004 INFO  TestCase:43 - Check localization = false
+11:53:11,004 INFO  TestCase:92 - TestCase.
+11:53:11,004 INFO  TestCase:93 - Login = Login{name='user3', password='123'}
+11:53:11,004 INFO  TestCase:94 - Exists is true
+11:53:11,004 INFO  TestCase:96 - Password during login operation = wrong
+11:53:11,004 INFO  TestCase:100 - Expected error message = Invalid username or password
+11:53:11,006 INFO  TestCase:42 - Custom Screenshot = false (Screenshot into custom/private folder)
+11:53:11,007 INFO  TestCase:43 - Check localization = false
+11:53:11,007 INFO  TestCase:92 - TestCase.
+11:53:11,007 INFO  TestCase:93 - Login = Login{name='user3', password='123'}
+11:53:11,007 INFO  TestCase:94 - Exists is false
+11:53:11,007 INFO  TestCase:96 - Password during login operation = wrong
+11:53:11,008 INFO  TestCase:100 - Expected error message = Invalid username or password
+11:53:11,010 INFO  TestCase:42 - Custom Screenshot = false (Screenshot into custom/private folder)
+11:53:11,010 INFO  TestCase:43 - Check localization = false
+11:53:11,010 INFO  TestCase:92 - TestCase.
+11:53:11,011 INFO  TestCase:93 - Login = Login{name='', password='123'}
+11:53:11,011 INFO  TestCase:94 - Exists is false
+11:53:11,011 INFO  TestCase:96 - Password during login operation = 123
+11:53:11,011 INFO  TestCase:100 - Expected error message = Please fill in this field
+11:53:11,014 INFO  TestCase:42 - Custom Screenshot = false (Screenshot into custom/private folder)
+11:53:11,014 INFO  TestCase:43 - Check localization = false
+11:53:11,014 INFO  TestCase:92 - TestCase.
+11:53:11,014 INFO  TestCase:93 - Login = Login{name='user4', password='123'}
+11:53:11,014 INFO  TestCase:94 - Exists is true
+11:53:11,014 INFO  TestCase:96 - Password during login operation = 
+11:53:11,014 INFO  TestCase:100 - Expected error message = Please fill in this field
+11:53:11,019 INFO  TestCase:42 - Custom Screenshot = true (Screenshot into custom/private folder)
+11:53:11,019 INFO  TestCase:43 - Check localization = false
+11:53:11,020 INFO  TestCaseWithoutBuilder:112 - TestCase.
+11:53:11,021 INFO  TestCaseWithoutBuilder:113 - Login = Login{name='user1', password='123'}
+11:53:11,021 INFO  TestCaseWithoutBuilder:114 - Exists is true
+11:53:11,024 INFO  TestCase:42 - Custom Screenshot = true (Screenshot into custom/private folder)
+11:53:11,024 INFO  TestCase:43 - Check localization = false
+11:53:11,024 INFO  TestCaseWithoutBuilder:112 - TestCase.
+11:53:11,024 INFO  TestCaseWithoutBuilder:113 - Login = Login{name='user2', password='123'}
+11:53:11,024 INFO  TestCaseWithoutBuilder:114 - Exists is false
+11:53:11,025 INFO  TestCase:42 - Custom Screenshot = false (Screenshot into custom/private folder)
+11:53:11,025 INFO  TestCase:43 - Check localization = false
+11:53:11,026 INFO  TestCaseWithoutBuilder:112 - TestCase.
+11:53:11,026 INFO  TestCaseWithoutBuilder:113 - Login = Login{name='user2', password='123'}
+11:53:11,026 INFO  TestCaseWithoutBuilder:114 - Exists is false
+11:53:11,026 INFO  TestCaseWithoutBuilder:116 - Password during login operation = 123
+11:53:11,026 INFO  TestCaseWithoutBuilder:120 - Expected error message = Invalid username or password
+11:53:11,028 INFO  TestCase:42 - Custom Screenshot = false (Screenshot into custom/private folder)
+11:53:11,028 INFO  TestCase:43 - Check localization = false
+11:53:11,028 INFO  TestCaseWithoutBuilder:112 - TestCase.
+11:53:11,028 INFO  TestCaseWithoutBuilder:113 - Login = Login{name='user2', password='123'}
+11:53:11,028 INFO  TestCaseWithoutBuilder:114 - Exists is false
+11:53:11,028 INFO  TestCaseWithoutBuilder:116 - Password during login operation = 123
+11:53:11,028 INFO  TestCaseWithoutBuilder:120 - Expected error message = Invalid username or password
+11:53:11,030 INFO  TestCase:42 - Custom Screenshot = false (Screenshot into custom/private folder)
+11:53:11,030 INFO  TestCase:43 - Check localization = false
+11:53:11,030 INFO  TestCaseWithoutBuilder:112 - TestCase.
+11:53:11,030 INFO  TestCaseWithoutBuilder:113 - Login = Login{name='user3', password='123'}
+11:53:11,030 INFO  TestCaseWithoutBuilder:114 - Exists is true
+11:53:11,030 INFO  TestCaseWithoutBuilder:116 - Password during login operation = wrong
+11:53:11,030 INFO  TestCaseWithoutBuilder:120 - Expected error message = Invalid username or password
+11:53:11,033 INFO  TestCase:42 - Custom Screenshot = false (Screenshot into custom/private folder)
+11:53:11,033 INFO  TestCase:43 - Check localization = false
+11:53:11,033 INFO  TestCaseWithoutBuilder:112 - TestCase.
+11:53:11,034 INFO  TestCaseWithoutBuilder:113 - Login = Login{name='user3', password='123'}
+11:53:11,034 INFO  TestCaseWithoutBuilder:114 - Exists is false
+11:53:11,034 INFO  TestCaseWithoutBuilder:116 - Password during login operation = wrong
+11:53:11,034 INFO  TestCaseWithoutBuilder:120 - Expected error message = Invalid username or password
+11:53:11,040 INFO  TestCase:42 - Custom Screenshot = false (Screenshot into custom/private folder)
+11:53:11,040 INFO  TestCase:43 - Check localization = false
+11:53:11,040 INFO  TestCaseWithoutBuilder:112 - TestCase.
+11:53:11,041 INFO  TestCaseWithoutBuilder:113 - Login = Login{name='', password='123'}
+11:53:11,041 INFO  TestCaseWithoutBuilder:114 - Exists is false
+11:53:11,041 INFO  TestCaseWithoutBuilder:116 - Password during login operation = 123
+11:53:11,041 INFO  TestCaseWithoutBuilder:120 - Expected error message = Please fill in this field
+11:53:11,043 INFO  TestCase:42 - Custom Screenshot = false (Screenshot into custom/private folder)
+11:53:11,043 INFO  TestCase:43 - Check localization = false
+11:53:11,044 INFO  TestCaseWithoutBuilder:112 - TestCase.
+11:53:11,044 INFO  TestCaseWithoutBuilder:113 - Login = Login{name='user4', password='123'}
+11:53:11,044 INFO  TestCaseWithoutBuilder:114 - Exists is true
+11:53:11,044 INFO  TestCaseWithoutBuilder:116 - Password during login operation = 
+11:53:11,044 INFO  TestCaseWithoutBuilder:120 - Expected error message = Please fill in this field
+18:31:29,552 INFO  TestCase:65 - Check! Write me!
+18:31:29,763 INFO  TestCase:42 - Custom Screenshot = true (Screenshot into custom/private folder)
+18:31:29,765 INFO  TestCase:43 - Check localization = false
+18:31:29,766 INFO  TestCase:91 - TestCase.
+18:31:29,766 INFO  TestCase:92 - Login = Login{name='user1', password='123'}
+18:31:29,766 INFO  TestCase:93 - Exists is true
+18:31:29,904 INFO  TestCase:42 - Custom Screenshot = true (Screenshot into custom/private folder)
+18:31:29,904 INFO  TestCase:43 - Check localization = false
+18:31:29,905 INFO  TestCase:91 - TestCase.
+18:31:29,905 INFO  TestCase:92 - Login = Login{name='user1', password='123'}
+18:31:29,905 INFO  TestCase:93 - Exists is true
+18:31:29,911 INFO  TestCase:42 - Custom Screenshot = true (Screenshot into custom/private folder)
+18:31:29,911 INFO  TestCase:43 - Check localization = false
+18:31:29,912 INFO  TestCase:91 - TestCase.
+18:31:29,912 INFO  TestCase:92 - Login = Login{name='user', password='123'}
+18:31:29,912 INFO  TestCase:93 - Exists is true
+18:31:29,923 INFO  TestCase:42 - Custom Screenshot = false (Screenshot into custom/private folder)
+18:31:29,923 INFO  TestCase:43 - Check localization = false
+18:31:29,925 INFO  TestCase:91 - TestCase.
+18:31:29,925 INFO  TestCase:92 - Login = Login{name='user', password='123'}
+18:31:29,925 INFO  TestCase:93 - Exists is true
+18:31:29,935 INFO  TestCase:42 - Custom Screenshot = true (Screenshot into custom/private folder)
+18:31:29,935 INFO  TestCase:43 - Check localization = false
+18:31:29,936 INFO  TestCase:91 - TestCase.
+18:31:29,936 INFO  TestCase:92 - Login = Login{name='user2', password='123'}
+18:31:29,936 INFO  TestCase:93 - Exists is false
+18:31:29,940 INFO  TestCase:42 - Custom Screenshot = false (Screenshot into custom/private folder)
+18:31:29,940 INFO  TestCase:43 - Check localization = false
+18:31:29,941 INFO  TestCase:91 - TestCase.
+18:31:29,941 INFO  TestCase:92 - Login = Login{name='user2', password='123'}
+18:31:29,941 INFO  TestCase:93 - Exists is false
+18:31:29,942 INFO  TestCase:95 - Password during login operation = 123
+18:31:29,942 INFO  TestCase:99 - Expected error message = Invalid username or password
+18:31:29,944 INFO  TestCase:42 - Custom Screenshot = false (Screenshot into custom/private folder)
+18:31:29,944 INFO  TestCase:43 - Check localization = false
+18:31:29,945 INFO  TestCase:91 - TestCase.
+18:31:29,945 INFO  TestCase:92 - Login = Login{name='user3', password='123'}
+18:31:29,945 INFO  TestCase:93 - Exists is true
+18:31:29,945 INFO  TestCase:95 - Password during login operation = wrong
+18:31:29,945 INFO  TestCase:99 - Expected error message = Invalid username or password
+18:31:29,948 INFO  TestCase:42 - Custom Screenshot = false (Screenshot into custom/private folder)
+18:31:29,948 INFO  TestCase:43 - Check localization = false
+18:31:29,948 INFO  TestCase:91 - TestCase.
+18:31:29,948 INFO  TestCase:92 - Login = Login{name='user3', password='123'}
+18:31:29,949 INFO  TestCase:93 - Exists is false
+18:31:29,949 INFO  TestCase:95 - Password during login operation = wrong
+18:31:29,949 INFO  TestCase:99 - Expected error message = Invalid username or password
+18:31:29,952 INFO  TestCase:42 - Custom Screenshot = false (Screenshot into custom/private folder)
+18:31:29,952 INFO  TestCase:43 - Check localization = false
+18:31:29,952 INFO  TestCase:91 - TestCase.
+18:31:29,952 INFO  TestCase:92 - Login = Login{name='', password='123'}
+18:31:29,952 INFO  TestCase:93 - Exists is false
+18:31:29,953 INFO  TestCase:95 - Password during login operation = 123
+18:31:29,953 INFO  TestCase:99 - Expected error message = Please fill in this field
+18:31:29,955 INFO  TestCase:42 - Custom Screenshot = false (Screenshot into custom/private folder)
+18:31:29,955 INFO  TestCase:43 - Check localization = false
+18:31:29,955 INFO  TestCase:91 - TestCase.
+18:31:29,956 INFO  TestCase:92 - Login = Login{name='user4', password='123'}
+18:31:29,956 INFO  TestCase:93 - Exists is true
+18:31:29,956 INFO  TestCase:95 - Password during login operation = 
+18:31:29,956 INFO  TestCase:99 - Expected error message = Please fill in this field
+18:31:29,961 INFO  TestCase:42 - Custom Screenshot = true (Screenshot into custom/private folder)
+18:31:29,962 INFO  TestCase:43 - Check localization = false
+18:31:29,962 INFO  TestCaseWithoutBuilder:112 - TestCase.
+18:31:29,964 INFO  TestCaseWithoutBuilder:113 - Login = Login{name='user1', password='123'}
+18:31:29,965 INFO  TestCaseWithoutBuilder:114 - Exists is true
+18:31:29,970 INFO  TestCase:42 - Custom Screenshot = true (Screenshot into custom/private folder)
+18:31:29,971 INFO  TestCase:43 - Check localization = false
+18:31:29,971 INFO  TestCaseWithoutBuilder:112 - TestCase.
+18:31:29,973 INFO  TestCaseWithoutBuilder:113 - Login = Login{name='user2', password='123'}
+18:31:29,973 INFO  TestCaseWithoutBuilder:114 - Exists is false
+18:31:29,977 INFO  TestCase:42 - Custom Screenshot = false (Screenshot into custom/private folder)
+18:31:29,977 INFO  TestCase:43 - Check localization = false
+18:31:29,977 INFO  TestCaseWithoutBuilder:112 - TestCase.
+18:31:29,978 INFO  TestCaseWithoutBuilder:113 - Login = Login{name='user2', password='123'}
+18:31:29,978 INFO  TestCaseWithoutBuilder:114 - Exists is false
+18:31:29,978 INFO  TestCaseWithoutBuilder:116 - Password during login operation = 123
+18:31:29,978 INFO  TestCaseWithoutBuilder:120 - Expected error message = Invalid username or password
+18:31:29,981 INFO  TestCase:42 - Custom Screenshot = false (Screenshot into custom/private folder)
+18:31:29,981 INFO  TestCase:43 - Check localization = false
+18:31:29,981 INFO  TestCaseWithoutBuilder:112 - TestCase.
+18:31:29,981 INFO  TestCaseWithoutBuilder:113 - Login = Login{name='user2', password='123'}
+18:31:29,982 INFO  TestCaseWithoutBuilder:114 - Exists is false
+18:31:29,982 INFO  TestCaseWithoutBuilder:116 - Password during login operation = 123
+18:31:29,982 INFO  TestCaseWithoutBuilder:120 - Expected error message = Invalid username or password
+18:31:29,984 INFO  TestCase:42 - Custom Screenshot = false (Screenshot into custom/private folder)
+18:31:29,984 INFO  TestCase:43 - Check localization = false
+18:31:29,987 INFO  TestCaseWithoutBuilder:112 - TestCase.
+18:31:29,987 INFO  TestCaseWithoutBuilder:113 - Login = Login{name='user3', password='123'}
+18:31:29,987 INFO  TestCaseWithoutBuilder:114 - Exists is true
+18:31:29,987 INFO  TestCaseWithoutBuilder:116 - Password during login operation = wrong
+18:31:29,988 INFO  TestCaseWithoutBuilder:120 - Expected error message = Invalid username or password
+18:31:29,996 INFO  TestCase:42 - Custom Screenshot = false (Screenshot into custom/private folder)
+18:31:29,997 INFO  TestCase:43 - Check localization = false
+18:31:29,997 INFO  TestCaseWithoutBuilder:112 - TestCase.
+18:31:29,997 INFO  TestCaseWithoutBuilder:113 - Login = Login{name='user3', password='123'}
+18:31:29,997 INFO  TestCaseWithoutBuilder:114 - Exists is false
+18:31:29,997 INFO  TestCaseWithoutBuilder:116 - Password during login operation = wrong
+18:31:29,998 INFO  TestCaseWithoutBuilder:120 - Expected error message = Invalid username or password
+18:31:30,000 INFO  TestCase:42 - Custom Screenshot = false (Screenshot into custom/private folder)
+18:31:30,000 INFO  TestCase:43 - Check localization = false
+18:31:30,001 INFO  TestCaseWithoutBuilder:112 - TestCase.
+18:31:30,001 INFO  TestCaseWithoutBuilder:113 - Login = Login{name='', password='123'}
+18:31:30,001 INFO  TestCaseWithoutBuilder:114 - Exists is false
+18:31:30,001 INFO  TestCaseWithoutBuilder:116 - Password during login operation = 123
+18:31:30,001 INFO  TestCaseWithoutBuilder:120 - Expected error message = Please fill in this field
+18:31:30,004 INFO  TestCase:42 - Custom Screenshot = false (Screenshot into custom/private folder)
+18:31:30,004 INFO  TestCase:43 - Check localization = false
+18:31:30,004 INFO  TestCaseWithoutBuilder:112 - TestCase.
+18:31:30,004 INFO  TestCaseWithoutBuilder:113 - Login = Login{name='user4', password='123'}
+18:31:30,004 INFO  TestCaseWithoutBuilder:114 - Exists is true
+18:31:30,005 INFO  TestCaseWithoutBuilder:116 - Password during login operation = 
+18:31:30,005 INFO  TestCaseWithoutBuilder:120 - Expected error message = Please fill in this field
