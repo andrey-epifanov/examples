@@ -1,0 +1,14 @@
+/.idea/*
+/**/**/.idea/*
+/.settings/*
+/logs/*
+/target/*
+/test-output/*
+/TestResultFolder/*
+.classpath
+/**/**/base.*.properties
+.project
+*.log
+luxoft-kics-autotests.iml
+*.iml
+gitignore
