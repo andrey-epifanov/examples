@@ -1,0 +1,8 @@
+Нужно возможно переименовать Ships column class в classvalue.
+
+Скачивать БД можно тут : 
+http://sql-ex.ru/db_script_download.php
+
+В примере используется БД Ships.
+
+

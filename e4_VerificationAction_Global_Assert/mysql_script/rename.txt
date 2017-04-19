@@ -1,0 +1,5 @@
+Исользование Ships : use ships
+
+Нужно переименовать Ships column class в classvalue.
+Скрипт:
+ALTER TABLE ships COLUMN CHANGE class classvalue varchar(50);
